@@ -15,7 +15,7 @@ body {
  }
  
 .nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
     transition: 0.15s;
@@ -161,11 +161,34 @@ footer {
 
 .box1 p {
     font-family: Arial, sans-serif;
-    font-size: 30px;
     color: #333;       
     gap: 10px;
 }
 
 .popis{
-    display:flex
+    display:flex;
+}
+
+
+.nazev {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.popis {
+    font-size: 20px;
+    margin: 5px 0 0 0;
+    font-family: Arial, sans-serif;
+    color: #444;
+}
+
+.texty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 0 20px;
 }
