@@ -41,8 +41,6 @@ body {
     outline: 1px solid black;
     text-decoration: none;
     border-radius: 5px;
-    position: relative;
-    bottom: 100px;
 }
 .btn:hover {
     background: linear-gradient(0deg, #b35408 0%, rgb(200, 220, 5) 100%);
@@ -191,4 +189,48 @@ footer {
     justify-content: center;
     flex: 1;
     padding: 0 20px;
+}
+
+.dekujeme {
+    display: block;
+    margin: 20px auto;
+}
+
+.diktxt {
+    text-align: center;
+    font-size: 50px;
+    font-family: Bahnschrift;
+}
+
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 30px;
+  line-height: 60px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 200px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
 }
