@@ -234,3 +234,45 @@ footer {
   box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
   outline: 0;
 }
+
+.novinky {
+    display:flex;
+    width: 900px;
+    padding: 15px;
+    background: #f5f5f5;
+    border: 2px solid #ec6b10;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease-in-out;
+    align-items:flex-end;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.novinky:hover {
+    background-color:#FDC816;
+}
+
+.novinky img {
+    border-radius: 10px;
+    display:flex
+}
+
+.novinky img {
+    border-radius: 10px;
+    display: flex;
+    transition: transform 0.3s ease;
+}
+.novinky img:hover {
+    transform: scale(1.75);
+}
+
+
+.novinky p {
+    font-family: Arial, sans-serif;
+    color: #333;       
+    gap: 10px;
+}
+
+
