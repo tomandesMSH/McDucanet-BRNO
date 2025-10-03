@@ -15,11 +15,49 @@
     <a href="akce.html">Speciální akce</a>
     <a href="EDUCAGroup.html">EDUCAGroup</a> 
     </div>
-    <img class="logo" src="branding/logo.png"> 
+    <img class="logo" src="branding/logo.png">
+<h1 style="position:absolute; right: 24%; top:5%"> Dnešní objednávky připravují: </h1>
+<h1 style="position:absolute; left: 15%; top:5%"> Informace o objednávce </h1>
+    <div class="staff">
+    <img style="position:absolute; right:36%;" src="Novinky/jancakuchyna.webp">
+    <img style="position:absolute; right: 7%" src="novinky/dankuchyna.webp">
+</div>
+    <p style="position:absolute; right:48%; top:90%; font-family: Arial, sans-serif; font-size:30px"> Jana </p>
+    <p style="position:absolute; right:18%; top:90%; font-family: Arial, sans-serif; font-size:30px"> Daniel </p>
+    <div class="formmove">
+    <div class="formulare">
+     <form class="boxformulare" action="odeslano.html" method="post">
+       <label for="jmeno">Jméno:</label><br>
+       <input class="formularinput" type="text" id="jmeno" name="jmeno" required><br><br>
 
-    <h1> Děkujeme za objednávku! </h1>
-    <img class="dekujeme" src="branding/dekujeme.png">
-    <h2 class="diktxt">  Kurýr u Vás bude cobydup</h2>
-    <div style="text-align: center;"> 
-        <a href="index.html" class="btn"> Objednat více </a>
+       <label for="prijmeni">Příjmení:</label><br>
+      <input class="formularinput" type="text" id="prijmeni" name="prijmeni" required><br><br>
+
+       <label for="telefon">Telefonní Číslo:</label><br>
+       <input class="formularinput" type="text" id="telefon" name="telefon" required><br><br>
+
+        <label for="lokace">Lokace:</label><br>
+       <input class="formularinput" type="text" id="lokace" name="lokace" required><br><br>
+    
+       <p>Platební metoda:</p>
+       <input type="radio" id="kreditkaM" name="stylplatby" value="kreditkaM" required>
+       <label for="kreditkaM">Kreditní kartou MasterCard</label><br>
+
+      <input type="radio" id="kreditkaV" name="stylplatby" value="kreditkaV" required>
+      <label for="kreditkaV">Kreditní kartou VISA</label><br>
+
+      <input type="radio" id="onlineBank" name="stylplatby" value="onlineBank" required>
+       <label for="onlineBank">Online bankovní převod</label><br>
+
+      <input type="radio" id="googlePay" name="stylplatby" value="googlePay" required>
+       <label for="googlePay">Google Pay</label><br>
+
+       <input type="radio" id="hotove" name="stylplatby" value="hotove" required>
+       <label for="hotove">Hotově na místě</label><br><br>
+
+         <button class="formulartlacitko" type="submit">Potvrdit</button>
+     </form>
     </div>
+</div>
+</body>
+</html>

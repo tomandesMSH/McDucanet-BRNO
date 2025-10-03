@@ -276,3 +276,69 @@ footer {
 }
 
 
+.formulare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxformulare {
+  padding: 20px;      
+  width: 400px;       
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.formularinput {
+  width: 100%;
+  padding: 14px;      
+  margin-top: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px;   
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.formulartlacitko {
+  margin-top: 15px;
+  padding: 15px 30px; 
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(#f2fa06, #ec6b10);
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border: 2px solid black;
+  transition: transform 0.3s ease;
+}
+
+.formulartlacitko:hover {
+  background: linear-gradient(#c4d904,#c55a0d);
+}
+
+.formularinput:hover {
+    transform: scale(1.05);
+}
+
+label {
+  font-size: 18px;
+  font-family: Calibri
+}
+
+.formmove {
+    margin-right: 1000px
+}
+
+.staff img {
+    max-width: 470px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.staff img:hover {
+    transform: scale(1.05);
+}
