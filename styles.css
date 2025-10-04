@@ -342,3 +342,17 @@ label {
 .staff img:hover {
     transform: scale(1.05);
 }
+
+.formaction-tlacitka {
+
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 6px;
+    margin: 2px 0;
+      
+}
+
+.formmove2 {
+    position:relative;
+    top: -150px;
+}
