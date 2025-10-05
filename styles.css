@@ -378,3 +378,34 @@ label {
     0% { transform: translateX(0); }
     100% { transform: translateX(-100%); }
 }
+
+.akce {
+    display:flex;
+    width: 900px;
+    padding: 15px;
+    background: #f5f5f5;
+    border: 2px solid #ec6b10;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease-in-out;
+    align-items:flex-end;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.akce img {
+    border-radius: 10px;
+    display: flex;
+    transition: transform 0.3s ease;
+}
+.akce img:hover {
+    transform: scale(1.02);
+}
+
+
+.akce p {
+    font-family: Arial, sans-serif;
+    color: #333;       
+    gap: 10px;
+}
