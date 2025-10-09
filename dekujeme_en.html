@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDB - Order</title>
+    <link rel="shortcut icon" href="branding/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="novinky_en.html">News</a>
+        <a href="objednavky_en.html">Orders</a>
+        <a href="index_en.html">Menu</a>
+        <a href="akce_en.html">Special Offers</a>
+        <a href="kontakty_en.html">Contacts</a> 
+    </div>
+    <a href="index_en.html"><img class="logo" src="branding/logo.png"></a>
+    <div class="translate">
+        <a href="dekujeme.html"> Čeština </a>
+    </div>
+    <h1 style="position:absolute; right: 24%; top:5%">Today's orders are being prepared:</h1>
+    <h1 style="position:absolute; left: 15%; top:5%">Order Information</h1>
+
+    <div class="staff">
+        <img style="position:absolute; right:36%;" src="novinky/jancakuchyna.webp">
+        <img style="position:absolute; right: 7%" src="novinky/dankuchyna.webp">
+    </div>
+
+    <p style="position:absolute; right:48%; top:90%; font-family: Arial, sans-serif; font-size:30px">Jana</p>
+    <p style="position:absolute; right:18%; top:90%; font-family: Arial, sans-serif; font-size:30px">Daniel</p>
+
+    <div class="formmove">
+        <div class="formulare">
+            <form class="boxformulare" action="odeslano_en.html" method="get">
+                <label for="jmeno">First Name:</label><br>
+                <input class="formularinput" type="text" id="jmeno" name="jmeno" required><br><br>
+
+                <label for="prijmeni">Last Name:</label><br>
+                <input class="formularinput" type="text" id="prijmeni" name="prijmeni" required><br><br>
+
+                <label for="telefon">Phone Number:</label><br>
+                <input class="formularinput" type="text" id="telefon" name="telefon" required><br><br>
+
+                <label for="lokace">Location:</label><br>
+                <input class="formularinput" type="text" id="lokace" name="lokace" required><br><br>
+
+                <p>Payment Method:</p>
+                <input type="radio" id="kreditkaM" name="stylplatby" value="kreditkaM" required>
+                <label for="kreditkaM">MasterCard Credit Card</label><br>
+
+                <input type="radio" id="kreditkaV" name="stylplatby" value="kreditkaV" required>
+                <label for="kreditkaV">VISA Credit Card</label><br>
+
+                <input type="radio" id="onlineBank" name="stylplatby" value="onlineBank" required>
+                <label for="onlineBank">Online Bank Transfer</label><br>
+
+                <input type="radio" id="googlePay" name="stylplatby" value="googlePay" required>
+                <label for="googlePay">Google Pay</label><br>
+
+                <input type="radio" id="hotove" name="stylplatby" value="hotove" required>
+                <label for="hotove">Cash</label><br><br>
+
+                <button class="formulartlacitko" type="submit">Confirm</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

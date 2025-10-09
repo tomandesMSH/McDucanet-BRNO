@@ -409,3 +409,24 @@ label {
     color: #333;       
     gap: 10px;
 }
+
+.translate {
+    position: absolute;
+    top: 20px;       
+    right: 20px;     
+    z-index: 100;    
+}
+
+.translate a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.15s;
+    font-family: "Google Sans Code", monospace;
+}
+
+.translate a:hover {
+    text-decoration: underline;
+    font-size: 25px;
+    color: cornflowerblue;
+}
